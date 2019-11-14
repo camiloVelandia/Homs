@@ -1,0 +1,331 @@
+body{
+  margin: 0;
+}
+.header{
+  margin: 0;
+  padding: 0px;
+  background: whitesmoke;
+  border: red;
+}
+.container{
+  display: grid;
+  grid-template-columns: 20%  40% 20% 20%;
+  grid-template-areas:"logo buscar car cuenta";
+  background: #F2F2F2 0% 0% no-repeat padding-box;
+  opacity: 1;
+  top: 1px;
+  left: 0px;
+  height: 120px;
+}
+.logo{
+  display: grid;
+  grid-area: logo;
+  align-items: center;
+  justify-content: center;
+}
+.buscar{
+  grid-area: buscar;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.buscar input{
+  background: #E6E6E6 0% 0% no-repeat padding-box;
+  opacity: 1;
+  width: 450px;
+  height: 28px;
+  border: 1px solid #ccc;
+  font-family:'Arial Narrow Bold', sans-serif;
+}
+.buscar img{
+  position:absolute;
+  right:20px;
+}
+.car{
+  display: flex;
+  grid-auto-flow: column;
+  grid-area: car;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  font-family:'Lato', sans-serif;
+  text-decoration: none;
+  color: #021733;
+  
+}
+.car p{
+  padding: 0 7px;
+}
+.account{
+  display: flex;
+  grid-auto-flow: column;
+  grid-area: cuenta;
+  align-items: center;
+  justify-content: center;
+  font-family:'Lato', sans-serif;
+  text-decoration: none;
+  color: #021733;
+
+}
+.account p{
+  padding: 0 7px;
+
+}
+
+.principal{
+  display: grid;
+  grid-template: 668px 336px 335px / repeat(4 , 25%);
+  grid-template-areas:"nuevo nuevo nuevo nuevo"
+                      "mesa mesa taburetes taburetes"
+                      "mesa mesa accesorios sillas" ;
+}
+/* .item{
+  border: 1px solid red;
+} */
+.nuevos{
+  grid-area: nuevo;
+  top: 122px;
+  left: -1px;
+  height: 668px;
+  background:transparent url('../images/1reach-solid_1280x601.png') 100% 00px  no-repeat padding-box;
+ border: 1px solid #7B8086;
+  opacity: 1;
+}
+.nuevos P{
+  padding: 200px 80px 0;
+  top: 315px;
+left: 134px;
+width: 197px;
+height: 33px;
+text-align: left;
+letter-spacing: 0;
+color: #021733;
+opacity: 1;
+}
+.nuevos h1{
+  padding: 0px 80px 0;
+  top: 394px;
+left: 134px;
+width: 432px;
+text-align: left;
+font: Bold 50px/30px Quicksand;
+letter-spacing: 0;
+color: #021733;
+opacity: 1;
+}
+.boton{
+  display: grid;
+  align-items: center;
+width: 113px;
+height: 33px;
+text-align: center;
+font: Regular 26px/60px Quicksand;
+letter-spacing: 0;
+color: #FFFFFF;
+opacity: 1;
+background: #B18C48 0% 0% no-repeat padding-box;
+}
+.bot{
+  padding: 0 80px;
+}
+.mesas{
+  grid-area: mesa;
+  background: transparent url('../images/h2_c36cedb1-2f75-41d4-96a0-31d363d8a24f_960x.png') 0% 0px no-repeat padding-box;
+  border: 1px solid #7B8086;
+  opacity: 1;
+  text-align: left;
+font: Bold 32px/33px Quicksand;
+letter-spacing: 0;
+color: #021733;
+text-transform: uppercase;
+opacity: 1;
+}
+.mesas h2{
+  padding: 320px 0px 0 30px;
+}
+.taburetes{
+  grid-area: taburetes;
+  background: transparent url('../images/hero1_huge_30cdfc1b-f66c-4f58-885a-8c60b1a47040_960x.png') 0% 0px no-repeat padding-box;
+  opacity: 1;
+  letter-spacing: 0;
+color: #021733;
+}
+.taburetes h3{
+  padding: 100px 0px 0 30px;
+  font: Bold 34px/35px Quicksand;
+
+}
+.accesorios{
+  grid-area: accesorios;
+  background: transparent url('../images/h4_84003309-fa02-4106-a4b6-ebe418968412_960x.png') 60% 60% no-repeat padding-box;
+  border: 1px solid #7B808699;
+  opacity: 1;
+  letter-spacing: 0;
+color: #021733;
+}
+.accesorios h4{
+  padding: 120px 0px 0 8px;
+  font: Bold 20px/28px Quicksand;
+}
+
+.sillas{
+  grid-area: sillas;
+  background: transparent url('../images/h3_08c26aeb-8d10-44f3-9d88-5517e08650bc_960x.png') 50% 35% no-repeat padding-box;
+  border: 1px solid #7B808699;
+  opacity: 1;
+  letter-spacing: 0;
+color: #021733;
+}
+.sillas h4{
+  padding: 120px 0px 0 30px;
+  font: Bold 24px/26px Quicksand;
+}
+.frase{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-family:'Courier New', Courier, monospace, sans-serif;
+  background: #F2F2F2 0% 0% no-repeat padding-box;
+  letter-spacing: 0;
+  color: #000E1F;
+  text-transform: capitalize;
+  opacity: 1;
+  height: 116px;
+}
+.footContainer{
+  background: #021733 0% 0% no-repeat padding-box;
+  display: grid;
+  grid-template: 140px 110px 40px 110px 140px / 50% 50%;
+  grid-template-areas: "redes boletin"
+                        "iconos input"
+                        "descubre enterate"
+                        "privacidad terminos"
+                        "powered powered";
+}
+.redes{
+  padding: 60px 0px 0 30px;
+  grid-area: redes;
+  text-align: left;
+font: Bold 14px/30px Calibri;
+letter-spacing: 0;
+color: #A6AFBA;
+text-transform: uppercase;
+opacity: 1;
+}
+.boletin{
+  grid-area: boletin;
+  padding: 60px 0px 0 50px;
+  text-align: left;
+font: Bold 14px/30px Calibri;
+letter-spacing: 0;
+color: #A6AFBA;
+text-transform: uppercase;
+opacity: 1;
+}
+.iconos{
+  padding: 0 0px 0 20px;
+  display: flex;
+  grid-area: iconos;
+width: 30px;
+height: 30px;
+}
+.iconos img{
+  padding: 0 10px;
+}
+.registro{
+  grid-area: input;
+  
+}
+.text{
+  margin:0px 0px 0 50px ;
+  padding: 0px 0px 0 50px;
+  top: 1731px;
+width: 250px;
+height: 30px;
+}
+.submit{
+  border: 0px;
+  padding: 0;
+  top: 1731px;
+left: 1122px;
+width: 154px;
+height: 37px;
+color: #A6AFBA;
+background: #000E1F 0% 0% no-repeat padding-box;
+opacity: 1;
+text-transform: capitalize;
+
+}
+.descubre{
+  grid-area: descubre;
+  padding: 0px 30px;
+  font: Light 23px/20px Calibri;
+color: #A6AFBA;
+opacity: 1;
+margin: 0;
+text-transform: capitalize;
+}
+.descubre p{
+  margin: 0;
+}
+.enterate{
+  grid-area: enterate;
+  font: Light 23px/20px Calibri;
+color: #A6AFBA;
+padding: 0px 0px 0 50px;
+opacity: 1;
+margin: 0;
+text-transform: capitalize;
+}
+.enterate p{
+  margin: 0;
+}
+.privacidad{
+  grid-area: privacidad ;
+  padding: 0 200px 0 200px;
+  text-transform: capitalize;
+}
+.polit{
+  padding: 0 00px 0 400px ;
+  font: Light 20px/20px Calibri;
+  letter-spacing: 0;
+  color: #A6AFBA;
+  opacity: 1;
+  border-right:1px solid #F2F2F2;
+  width: 170px;
+  text-transform: capitalize;
+  text-decoration: none;
+  
+}
+.terminos{
+  grid-area: terminos;
+  padding: 0 0px 0 0px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.term{
+  padding: 0 00px 0 0px ;
+  font: Light 20px/20px Calibri;
+  letter-spacing: 0;
+  color: #A6AFBA;
+  opacity: 1;
+  border-right:1px solid #F2F2F2;
+  /* text-transform: capitalize; */
+  text-decoration: none;
+}
+.powered{
+  grid-area: powered ;
+  display: flex;
+  justify-content: space-evenly;
+  font: Light 20px/20px Calibri;
+letter-spacing: 0;
+color: #A6AFBA;
+opacity: 1;
+text-transform: capitalize;
+padding: 0 60px 0 0px;
+  
+}
