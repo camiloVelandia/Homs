@@ -35,7 +35,7 @@ body{
 .buscar input{
   background: #E6E6E6 0% 0% no-repeat padding-box;
   opacity: 1;
-  width: 450px;
+  width: 520px;
   height: 28px;
   border: 1px solid #ccc;
   font-family:'Arial Narrow Bold', sans-serif;
@@ -174,7 +174,7 @@ color: #021733;
 
 .sillas{
   grid-area: sillas;
-  background: transparent url('../images/h3_08c26aeb-8d10-44f3-9d88-5517e08650bc_960x.png') 50% 35% no-repeat padding-box;
+  background: transparent url('../images/h3_08c26aeb-8d10-44f3-9d88-5517e08650bc_960x.png') 0% 35% no-repeat padding-box;
   border: 1px solid #7B808699;
   opacity: 1;
   letter-spacing: 0;
@@ -290,7 +290,7 @@ text-transform: capitalize;
   text-transform: capitalize;
 }
 .polit{
-  padding: 0 00px 0 400px ;
+  padding: 0 00px 0 470px ;
   font: Light 20px/20px Calibri;
   letter-spacing: 0;
   color: #A6AFBA;
