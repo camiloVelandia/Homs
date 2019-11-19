@@ -1,5 +1,7 @@
 body{
   margin: 0;
+  font-family: 'Raleway';
+  font-style: Regular;
 }
 .header{
   margin: 0;
@@ -9,7 +11,7 @@ body{
 }
 .container{
   display: grid;
-  grid-template-columns: 20%  40% 20% 20%;
+  grid-template-columns: 20%  50% 15% 15%;
   grid-template-areas:"logo buscar car cuenta";
   background: #F2F2F2 0% 0% no-repeat padding-box;
   opacity: 1;
@@ -22,6 +24,7 @@ body{
   grid-area: logo;
   align-items: center;
   justify-content: center;
+  
 }
 .buscar{
   grid-area: buscar;
@@ -29,16 +32,16 @@ body{
   align-items: center;
   justify-content: center;
   position: relative;
-  font-family: Arial, Helvetica, sans-serif;
+  width: 520px;
 
 }
 .buscar input{
   background: #E6E6E6 0% 0% no-repeat padding-box;
   opacity: 1;
   width: 520px;
-  height: 28px;
+  height: 45px;
   border: 1px solid #ccc;
-  font-family:'Arial Narrow Bold', sans-serif;
+  font-style:italic;
 }
 .buscar img{
   position:absolute;
@@ -52,9 +55,9 @@ body{
   justify-content: center;
   padding: 0;
   margin: 0;
-  font-family:'Lato', sans-serif;
   text-decoration: none;
   color: #021733;
+  
   
 }
 .car p{
@@ -66,7 +69,6 @@ body{
   grid-area: cuenta;
   align-items: center;
   justify-content: center;
-  font-family:'Lato', sans-serif;
   text-decoration: none;
   color: #021733;
 
@@ -92,11 +94,11 @@ body{
   left: -1px;
   height: 668px;
   background:transparent url('../images/1reach-solid_1280x601.png') 100% 00px  no-repeat padding-box;
- border: 1px solid #7B8086;
+ border-bottom: 1px solid #7B8086;
   opacity: 1;
 }
 .nuevos P{
-  padding: 200px 80px 0;
+  padding: 197px 134px 0;
   top: 315px;
 left: 134px;
 width: 197px;
@@ -107,7 +109,7 @@ color: #021733;
 opacity: 1;
 }
 .nuevos h1{
-  padding: 0px 80px 0;
+  padding: 0px 134px 0;
   top: 394px;
 left: 134px;
 width: 432px;
@@ -120,32 +122,34 @@ opacity: 1;
 .boton{
   display: grid;
   align-items: center;
-width: 113px;
-height: 33px;
+width: 155px;
+height: 58px;
 text-align: center;
-font: Regular 26px/60px Quicksand;
+font-family: 'Quicksand';
+font-size: 19px;
 letter-spacing: 0;
 color: #FFFFFF;
 opacity: 1;
 background: #B18C48 0% 0% no-repeat padding-box;
+border: none;
 }
 .bot{
-  padding: 0 80px;
+  padding: 0 134px;
 }
 .mesas{
   grid-area: mesa;
   background: transparent url('../images/h2_c36cedb1-2f75-41d4-96a0-31d363d8a24f_960x.png') 0% 0px no-repeat padding-box;
-  border: 1px solid #7B8086;
+  border-right: 1px solid #7B8086;
   opacity: 1;
   text-align: left;
-font: Bold 32px/33px Quicksand;
+font: Bold 32px/33px 'Quicksand';
 letter-spacing: 0;
 color: #021733;
 text-transform: uppercase;
 opacity: 1;
 }
 .mesas h2{
-  padding: 320px 0px 0 30px;
+  padding: 320px 0px 0 64px;
 }
 .taburetes{
   grid-area: taburetes;
@@ -153,29 +157,29 @@ opacity: 1;
   opacity: 1;
   letter-spacing: 0;
 color: #021733;
+border-bottom: 1px solid #7B8086;
 }
 .taburetes h3{
-  padding: 100px 0px 0 30px;
-  font: Bold 34px/35px Quicksand;
+  padding: 100px 0px 0 32px;
+  font: Bold 34px/35px 'Quicksand';
 
 }
 .accesorios{
   grid-area: accesorios;
   background: transparent url('../images/h4_84003309-fa02-4106-a4b6-ebe418968412_960x.png') 60% 60% no-repeat padding-box;
-  border: 1px solid #7B808699;
+  border-right: 1px solid #7B808699;
   opacity: 1;
   letter-spacing: 0;
 color: #021733;
 }
 .accesorios h4{
   padding: 120px 0px 0 8px;
-  font: Bold 20px/28px Quicksand;
+  font: Bold 20px/28px 'Quicksand';
 }
 
 .sillas{
   grid-area: sillas;
   background: transparent url('../images/h3_08c26aeb-8d10-44f3-9d88-5517e08650bc_960x.png') 0% 35% no-repeat padding-box;
-  border: 1px solid #7B808699;
   opacity: 1;
   letter-spacing: 0;
 color: #021733;
@@ -207,10 +211,10 @@ color: #021733;
                         "powered powered";
 }
 .redes{
-  padding: 60px 0px 0 30px;
+  padding: 92px 0px 0 86px;
   grid-area: redes;
   text-align: left;
-font: Bold 14px/30px Calibri;
+font: Bold 14px/30px 'Raleway';
 letter-spacing: 0;
 color: #A6AFBA;
 text-transform: uppercase;
@@ -218,34 +222,36 @@ opacity: 1;
 }
 .boletin{
   grid-area: boletin;
-  padding: 60px 0px 0 50px;
+  padding: 92px 0px 0 50px;
   text-align: left;
-font: Bold 14px/30px Calibri;
+font: Bold 14px/30px 'Raleway';
 letter-spacing: 0;
 color: #A6AFBA;
 text-transform: uppercase;
 opacity: 1;
 }
 .iconos{
-  padding: 0 0px 0 20px;
+  padding: 23px 0px 0 76px;
   display: flex;
   grid-area: iconos;
-width: 30px;
-height: 30px;
+  width: 40px;
+height: 40px;
+
 }
 .iconos img{
   padding: 0 10px;
+  width: 40px;
+height: 40px;
 }
 .registro{
   grid-area: input;
   
 }
 .text{
-  margin:0px 0px 0 50px ;
-  padding: 0px 0px 0 50px;
+  margin:23px 0px 0 50px ;
   top: 1731px;
-width: 250px;
-height: 30px;
+width: 372px;
+height: 38px;
 }
 .submit{
   border: 0px;
@@ -253,8 +259,9 @@ height: 30px;
   top: 1731px;
 left: 1122px;
 width: 154px;
-height: 37px;
+height: 45px;
 color: #A6AFBA;
+font-weight: bold;
 background: #000E1F 0% 0% no-repeat padding-box;
 opacity: 1;
 text-transform: capitalize;
@@ -263,7 +270,7 @@ text-transform: capitalize;
 .descubre{
   grid-area: descubre;
   padding: 0px 30px;
-  font: Light 23px/20px Calibri;
+  font: light 23px/20px ;
 color: #A6AFBA;
 opacity: 1;
 margin: 0;
@@ -271,10 +278,12 @@ text-transform: capitalize;
 }
 .descubre p{
   margin: 0;
+  padding: 0 0px 0 56px;
+
 }
 .enterate{
   grid-area: enterate;
-  font: Light 23px/20px Calibri;
+  font: Light 23px/20px ;
 color: #A6AFBA;
 padding: 0px 0px 0 50px;
 opacity: 1;
