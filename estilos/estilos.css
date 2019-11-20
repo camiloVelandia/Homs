@@ -26,26 +26,40 @@ body{
   
 }
 .buscar{
+  border: 1px solid #ccc;
   grid-area: buscar;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   width: 520px;
-
-}
-.buscar input{
-  background: #E6E6E6 0% 0% no-repeat padding-box;
-  opacity: 1;
-  width: 520px;
   height: 45px;
-  border: 1px solid #ccc;
+  margin: 38px 0 0 0;
+  background: #E6E6E6 0% 0% no-repeat padding-box;
+  
+
+} 
+.input_text {
+  border: none;
+  width: 450px;
+  position: relative;
+  background: transparent;
+  outline: none;
+  color: #7B8086;
+  bottom: 8px;
+  padding: 2px ;
+  margin: 5px;
   font-style:italic;
 }
-.buscar img{
-  position:absolute;
-  right:20px;
+input.image_buscar {
+  width: 34px;
+  height: 34px;
+  border: 0px;
+  position: relative;
+  top: 5px;
+
 }
+
 .car{
   display: flex;
   grid-auto-flow: column;
