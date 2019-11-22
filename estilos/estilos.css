@@ -296,6 +296,7 @@ height: 40px;
 }
 .registro{
   grid-area: input;
+  display: flex;
   
 }
 .text{
@@ -307,6 +308,7 @@ height: 40px;
 .submit{
   border: 0px;
   padding: 0;
+  margin-top: 23px;
   top: 1731px;
   left: 1122px;
   width: 154px;
@@ -389,4 +391,21 @@ opacity: 1;
 text-transform: capitalize;
 padding: 30px 60px 0 0px;
   
+}
+
+@media screen and (max-width: 940px){
+
+  
+  .nuevos , .taburetes, .accesorios , .sillas ,.mesas{
+    background-size: 100% 100%;  
+  }
+}
+@media screen and (max-width: 768px){
+
+  .car p{
+    display: none;
+  }
+  .account p{
+    display: none;
+  }
 }
