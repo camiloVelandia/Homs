@@ -5,8 +5,7 @@ body{
 .header{
   margin: 0;
   padding: 0px;
-  background: whitesmoke;
-  border: red;
+  
 }
 .container{
   display: grid;
@@ -104,6 +103,7 @@ input.image_buscar {
   grid-template-areas:"nuevo nuevo nuevo nuevo"
                       "mesa mesa taburetes taburetes"
                       "mesa mesa accesorios sillas" ;
+  width: 100%;                    
 }
 /* .item{
   border: 1px solid red;
@@ -401,11 +401,81 @@ padding: 30px 60px 0 0px;
   }
 }
 @media screen and (max-width: 768px){
+html , body{
+  padding: 0;
+  margin: 0;
+}
+.car p{
+  display: none;
+}
+.account p{
+  display: none;
+}
 
-  .car p{
-    display: none;
+.principal{
+ 
+  display:block ;
+  padding-top:0px ;
+  padding-bottom:0px ;
+  margin: 0;
+  width: 100%;
+  border: 2px solid greenyellow;
+}
+.nuevos{
+  
+  border: 2px solid black;
+  margin: 0;
+  margin-top: 120px;
+  top: 122px;
+  left: -1px;
+  width: max-content;
+  /*background:transparent url('../images/1reach-solid_1280x601.png') 100% 00px  no-repeat padding-box;*/
+  background-image: url("../images/1reach-solid_1280x601.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+
+.mesas{
+  width: 153vh;
+  height: 300px;
+  border: 2px solid black;
+  display: block;
+  /*background: transparent url('../images/h2_c36cedb1-2f75-41d4-96a0-31d363d8a24f_960x.png') 0% 0px no-repeat padding-box;*/
+  background-image:url("../images/h2_c36cedb1-2f75-41d4-96a0-31d363d8a24f_960x.png") ;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: 1;
+  letter-spacing: 0;
+  
+
+}
+.mesas h2{
+  padding-top: 10%;
+}
+
+.sillas{
+  width: 153vh;
+  height: 300px;
+  border: 2px solid black;
+}
+                
+  .taburetes{
+    width: 153vh;
+  height: 300px;
+  border: 2px solid black;
   }
-  .account p{
-    display: none;
+  .accesorios{
+    width: 153vh;
+    height: 300px;
+    border: 2px solid black;
+  } 
+  .footContainer{
+    width: 154vh;
+    height: auto;
+   margin: 0;
+   padding: 0;
+   border: 2px solid black;
   }
+  
 }
