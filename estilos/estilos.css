@@ -402,8 +402,12 @@ padding: 30px 60px 0 0px;
 }
 @media screen and (max-width: 768px){
 html , body{
-  padding: 0;
-  margin: 0;
+  width: auto !important;
+  overflow-x: hidden !important;
+  background: #dcdcdc;
+}
+.input_text{
+  
 }
 .car p{
   display: none;
@@ -423,12 +427,12 @@ html , body{
 }
 .nuevos{
   
-  border: 2px solid black;
   margin: 0;
   margin-top: 120px;
   top: 122px;
   left: -1px;
-  width: max-content;
+
+  
   /*background:transparent url('../images/1reach-solid_1280x601.png') 100% 00px  no-repeat padding-box;*/
   background-image: url("../images/1reach-solid_1280x601.png");
   background-size: 100% 100%;
@@ -437,9 +441,8 @@ html , body{
 }
 
 .mesas{
-  width: 153vh;
+  
   height: 300px;
-  border: 2px solid black;
   display: block;
   /*background: transparent url('../images/h2_c36cedb1-2f75-41d4-96a0-31d363d8a24f_960x.png') 0% 0px no-repeat padding-box;*/
   background-image:url("../images/h2_c36cedb1-2f75-41d4-96a0-31d363d8a24f_960x.png") ;
@@ -452,30 +455,135 @@ html , body{
 }
 .mesas h2{
   padding-top: 10%;
+  margin: 0;
 }
 
 .sillas{
-  width: 153vh;
+  
   height: 300px;
-  border: 2px solid black;
 }
                 
   .taburetes{
-    width: 153vh;
+    
   height: 300px;
-  border: 2px solid black;
   }
   .accesorios{
-    width: 153vh;
+    
     height: 300px;
-    border: 2px solid black;
-  } 
+    } 
+   .accesorios h4{
+     margin: 0;
+   } 
   .footContainer{
-    width: 154vh;
+    
     height: auto;
    margin: 0;
    padding: 0;
-   border: 2px solid black;
-  }
+   }
   
+}
+@media screen and (max-width: 425px){
+  html , body{
+    width: auto !important;
+    overflow-x: hidden !important;
+    background: #dcdcdc;
+  }
+  .container{
+    height: 20%;
+  }
+ .logo{
+   display: flex;
+   width: auto;
+ }
+ .logo img{
+  width: 90%;
+ }
+  input.image_buscar{
+    display: none;
+  }
+  .buscar{
+    height: 30%;
+    margin: auto;
+  }
+  form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+  }
+  .input_text{
+    text-align: center;
+    
+    height: 100%;
+    font-size: 90%;
+  }
+  .nuevos{
+    margin-top:20% ;
+    height: 350px;
+  background-size: 100% 115%;
+  }
+   .nuevos p{
+    padding-left: 5%;
+    padding-top: 15%;
+    font-size: 15px;
+  }
+  .nuevos h1{
+    font-size: 40px ;
+    padding: 20px 0 20px 15px;
+  }
+  .bot{
+    padding-left:5% ;
+  }
+  .mesas , .taburetes , .accesorios , .sillas{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 300px;
+  }
+  .mesas h2 , .taburetes h3, .accesorios h4 , .sillas h4{
+    padding: 0;
+  }
+  .footContainer{
+    display: grid;
+  grid-template: repeat(8 , 20%) !important;
+  grid-template-areas: "redes iconos boletin input descubre enterate privacidad powered";
+  height: 500px;
+}
+  .redes{
+    grid-area: redes;
+    display: block;
+    width: 100vh;
+    height: 50px;
+    padding: 0;
+    border: 1px solid red;
+  }
+  .boletin{
+    grid-area: boletin;
+    border: 1px solid red;
+    display: block;
+  }
+  .iconos{
+    grid-area: iconos;
+    display: flex;
+  }
+  .registro{
+    grid-area: input;
+    display: none;
+  }
+  .descubre{
+    grid-area: descubre;
+    display: none;
+  }
+  .enterate{
+    grid-area: enterate;
+    display: none;
+  }
+  .politica{
+    display: none;
+    grid-area:privacidad ;
+  }
+  .powered{
+    grid-area: powered;
+    display: none;
+  }
 }
