@@ -136,7 +136,7 @@ input.image_buscar {
                         "tab5 tab6 tab7 tab8";
                       }
 .items{
-  border-right: .1px solid #7B8086;                      
+  border: 1px solid #7B8086;                      
 
 }                      
  .image img{
@@ -144,6 +144,10 @@ input.image_buscar {
    height: 100%;
    border: none;
  }   
+ .resume{
+  border-top: 1px solid #7B8086;    
+                
+ }
                  
 .resume p , .resume h3{
                           

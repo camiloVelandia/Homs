@@ -113,11 +113,13 @@ input.image_buscar {
   grid-area: img;
   height: 90%;
   width: 100%;
+  ;
   
 }
 .hero img{
   
-  height: 92.6%;
+  border-right:1px solid #7B8086;                      
+  height: 95%;
   width: 100%;
 }
 .resume{
