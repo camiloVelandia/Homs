@@ -1,0 +1,117 @@
+body{
+  margin: 0;
+  font-family: 'Quicksand';
+  color: #021733;
+
+}
+.container{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 100vh;
+}
+.form{
+  padding: 10% 5%  8% 20%;
+  display: grid;
+  grid-template-rows:20% 15% 45% 20% ;
+  grid-template-areas: "contacto ";
+  gap: 2%;
+}
+
+.contacto {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.title{
+  padding-top: 7%;
+}
+.contacto h1,.contacto h6{
+  font-weight: 300;
+  margin: 0;
+}
+.envio{
+  border: 1px solid #CBCBCF;
+  border-radius: 5px;
+  padding-left: 2%;
+  padding-top: 2%;
+}
+.envio h3{
+  font-weight: 300;
+  margin: 0;
+}
+.cliente{
+  border: 1px solid #CBCBCF;
+  padding-left: 2%;
+  border-radius: 5px;
+
+}
+.cliente h3{
+  font-weight: 300;
+}
+.cliente p{
+  margin: 1%;
+  font-size: 1em;
+}
+
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.button a{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #021733;
+  font-size: small;
+}
+.button p{
+  margin: 0;
+  
+}
+.button input{
+  width: 50%;
+  height: 50%;
+  background: #021733;
+  color: white;
+}
+.button strong{
+  color: #3E5F87;
+}
+.total{
+  background: #F2F2F2;
+  padding: 18% 5% 0 5%;
+  display: grid;
+  grid-template-rows: 17% 70%;
+  gap: 2%;
+}
+.product{
+  
+  display: flex;
+}
+.product img{
+  height: 100%;
+  width: 17%;
+}
+.descr h1, .descr p{
+  margin: 0;
+  font-size: 1em;
+  padding-left: 8%;
+  width: 100%;
+}
+.product h3{
+  padding-left: 40%;
+  font-weight: 300;
+}
+.pagar{
+  border-top: 1px solid #CBCBCF;
+  display: flex; 
+  justify-content: space-between; 
+}
+.pagar strong{
+  font-size: 1.4em;
+}
+.tot{
+  font-size: 1.3em;
+  
+}

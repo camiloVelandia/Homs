@@ -100,92 +100,79 @@ input.image_buscar {
   padding: 0 7px;
 
 }
-.body{
-  position: relative;
-}
-
-.categoria{
-  background: #E0DFE5;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
- flex-direction: column;
-  height: 314px;
-  margin-top:120px ;
-  /*padding-top: 120px;*/
-  color: #021733;
+.principal{
+  display: grid;
+  grid-template-columns:45% 55%;
+  grid-template-areas: "img resume";
+  padding-top: 120px;
+  height: 550px;
   
 }
- .titulo{
- 
-  font-size: 250%;
-  letter-spacing: 0;
+.hero{
+  
+  grid-area: img;
+  height: 100%;
+  width: 100%;
   
 }
-.titulo h1{
-  margin: 0;
+.hero img{
+  
+  height: 92.6%;
+  width: 100%;
 }
-.categoria p{
-  font-size: larger;
+.resume{
+  grid-area: resume;
+  padding: 1% 10% 2% 10% ;
 }
-.articulos{
-  display: grid;                     
-  grid-template:repeat(2, 50%)/repeat(4, 1fr);
-  grid-template-areas: "tab1 tab2 tab3 tab4"
-                        "tab5 tab6 tab7 tab8";
-                      }
-.items{
-  border-right: .1px solid #7B8086;                      
-
-}                      
- .image img{
-   width: 100%;
-   height: 100%;
-   border: none;
- }   
-                 
-.resume p , .resume h3{
-                          
-    margin: 0;
-    margin-top:5px ;
-    padding: 0 0 1% 2%  ;
-    height: 200%;
-    
+.title{
+  font-size: 2em;
 }
-.tab1{
-  grid-area: tab1;
-  background: #E0DFE5;
+.title h1{
+  margin-bottom: 0;
+}
+.title h5{
+  margin-top: 0%;
+}
+.toCar{
+  
+  height: 3em;
+  margin-bottom: 5%;
+}
+.contador{
+  height: 100%;
+  width: 10%;
+  margin-right: 8%;
+  text-align: center;
+  font-size: 1.6em;
+  border: 1px solid #B6B9BC;
+  padding: 0;
+}
+.agregar{
+  height: 100%;
+  width: 70%;
+  padding: 0;
+  color: #B18C48;
+  border: 3px solid #B18C48;
+  font-size: 1.1em;
   cursor: pointer;
 }
-.tab2{
-  grid-area: tab2;
-  background: #E0DFE5;
+.button{
+  height: 3em;
 }
-.tab3{
-  grid-area: tab3;
-  background: #E0DFE5;
+.button input{
+  cursor: pointer;
+  height: 100%;
+  width: 90%;
+  background: #B18C48;
+  border: none;
+  color: white;
+  font-size: 1.2em;
 }
-.tab4{
-  grid-area: tab4;
-  background: #E0DFE5;
+.lorem{
+  font-size:1.4em;
+  
 }
-.tab5{
-  grid-area: tab5;
-  background: #E0DFE5;
-}
-.tab6{
-  grid-area: tab6;
-  background: #E0DFE5;
-}
-.tab7{
-  grid-area: tab7;
-  background: #E0DFE5;
-}
-.tab8{
-  grid-area: tab8;
-  background: #E0DFE5;
-}
+
 .recomendacion {
   display: flex;
   align-items: center;
@@ -208,19 +195,24 @@ input.image_buscar {
   background-size: 100% 100%;
   font-size: x-large;
   padding-left: 5%;
+  cursor: pointer;
 }
 .sillas{
   background-image: url("../images/h3_08c26aeb-8d10-44f3-9d88-5517e08650bc_960x.png");
   background-size: 100% 100%;
   font-size: x-large;
   padding-left: 5%;
+  cursor: pointer;
+
 }
 .accesorios{
   background-image: url("../images/h4_84003309-fa02-4106-a4b6-ebe418968412_960x.png");
   background-size: 100% 100%;
   font-size: x-large;
   padding-left: 5%;
+  cursor: pointer;
 }
+
 
 .footContainer{
   background: #021733 0% 0% no-repeat padding-box;

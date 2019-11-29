@@ -100,127 +100,99 @@ input.image_buscar {
   padding: 0 7px;
 
 }
-.body{
-  position: relative;
-}
-
-.categoria{
-  background: #E0DFE5;
-  position: relative;
+.title{
+  padding-top: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
- flex-direction: column;
-  height: 314px;
-  margin-top:120px ;
-  /*padding-top: 120px;*/
-  color: #021733;
+  text-align: center;
+  font-size: 2em ;
+}
+.list{
+  font-size: 1.2em;
+  border-bottom: 1px solid #7B8086;
+  margin:0 4% ;
   
 }
- .titulo{
+.list ul{
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 2em;
+  list-style: none;
+  padding-right: 2%;
+  
+}
+ .noSave{
+  height: 200px;
+  margin: 0 5%;
+  padding-left:4% ;
+  
+ }
+ .button{
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-start;
+   height: 200px;
+ }
+ .update{
+  border: 3px solid #B18C48;
+  color: #B18C48;
+  font-size: 1.1em;
+ }
+ .continue{
+  background: #B18C48;
+  border: none;
+  color: white;
+  font-size: 1.1em;
+ }
+ .button input{
+   height: 25%;
+   padding-left: 5%;
+   padding-right: 5%;
+   margin-top: 5%;
+   margin-right: 2%;
+ }
+ .cantidad{
+   padding-left: 22%;
+ }
  
-  font-size: 250%;
-  letter-spacing: 0;
+.products{
+  display: flex;
+  padding-top: 3%;
+  padding-left: 5%
+}
+.products img{
+  width: 18%;
+  height: 100%;
+}
+.name{
+  padding-top: 1.5%;
+  padding-left: 2%;
+  padding-right: 12%;
+  text-align: start;
   
 }
-.titulo h1{
+.name h4 ,.name h6{
+  padding: 0;
   margin: 0;
 }
-.categoria p{
-  font-size: larger;
+.count{
+  height: 3em;
+  width: 4%;
+  text-align: center;
 }
-.articulos{
-  display: grid;                     
-  grid-template:repeat(2, 50%)/repeat(4, 1fr);
-  grid-template-areas: "tab1 tab2 tab3 tab4"
-                        "tab5 tab6 tab7 tab8";
-                      }
-.items{
-  border-right: .1px solid #7B8086;                      
-
-}                      
- .image img{
-   width: 100%;
-   height: 100%;
-   border: none;
- }   
-                 
-.resume p , .resume h3{
-                          
-    margin: 0;
-    margin-top:5px ;
-    padding: 0 0 1% 2%  ;
-    height: 200%;
-    
+.precio{
+  margin: 0;
+  padding-left: 17%;
 }
-.tab1{
-  grid-area: tab1;
-  background: #E0DFE5;
-  cursor: pointer;
-}
-.tab2{
-  grid-area: tab2;
-  background: #E0DFE5;
-}
-.tab3{
-  grid-area: tab3;
-  background: #E0DFE5;
-}
-.tab4{
-  grid-area: tab4;
-  background: #E0DFE5;
-}
-.tab5{
-  grid-area: tab5;
-  background: #E0DFE5;
-}
-.tab6{
-  grid-area: tab6;
-  background: #E0DFE5;
-}
-.tab7{
-  grid-area: tab7;
-  background: #E0DFE5;
-}
-.tab8{
-  grid-area: tab8;
-  background: #E0DFE5;
-}
-.recomendacion {
-  display: flex;
-  align-items: center;
-  padding-left: 2%;
-  font-weight: 300;
-  height: 133px;
-  background: #E0DFE5;
-  border-top: 1px solid#7B8086;
+.total{
+  margin: 0;
+  padding-left: 13%;
 }
 
-.altern{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  width: 100%;
-  height: 455px;
-  
-}
-.mesas{
-  background-image: url("../images/h2_c36cedb1-2f75-41d4-96a0-31d363d8a24f_960x.png");
-  background-size: 100% 100%;
-  font-size: x-large;
-  padding-left: 5%;
-}
-.sillas{
-  background-image: url("../images/h3_08c26aeb-8d10-44f3-9d88-5517e08650bc_960x.png");
-  background-size: 100% 100%;
-  font-size: x-large;
-  padding-left: 5%;
-}
-.accesorios{
-  background-image: url("../images/h4_84003309-fa02-4106-a4b6-ebe418968412_960x.png");
-  background-size: 100% 100%;
-  font-size: x-large;
-  padding-left: 5%;
-}
 
 .footContainer{
   background: #021733 0% 0% no-repeat padding-box;

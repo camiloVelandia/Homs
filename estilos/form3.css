@@ -1,0 +1,114 @@
+body{
+  margin: 0;
+  font-family: 'Quicksand';
+  color: #021733;
+
+}
+.container{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 100vh;
+}
+.form{
+  padding: 17% 5%  8% 20%;
+  display: grid;
+  grid-template-rows:30% 20% 20% ;
+}
+.form input{
+  border: 1px solid #CBCBCF;
+  border-radius: 5px;
+  height: 35px;
+  font: 300 14px 'Quicksand';
+  color: #030D1A;
+  margin: 2% 0;
+}
+.contacto input{
+  width: 100%;
+}
+.nombre{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+}
+.nombre input{
+  width: 48%;
+  
+}
+.form h1{
+  font-weight: 300;
+  margin: 0;
+}
+
+.envio{
+}
+.envio input{
+  width: 100%;
+}
+.pais{
+  display: flex;
+  justify-content: space-between;
+}
+.pais input{
+  width: 31%;
+}
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.button a{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #021733;
+}
+.button p{
+  font-size: 2em;
+  margin: 0;
+} .button a.#text{
+  
+}
+.button input{
+  width: 50%;
+  height: 50%;
+  background: #021733;
+  color: white;
+}
+.total{
+  background: #F2F2F2;
+  padding: 18% 5% 0 5%;
+  display: grid;
+  grid-template-rows: 17% 70%;
+  gap: 2%;
+}
+.product{
+  
+  display: flex;
+}
+.product img{
+  height: 100%;
+  width: 17%;
+}
+.descr h1, .descr p{
+  margin: 0;
+  font-size: 1em;
+  padding-left: 8%;
+  width: 100%;
+}
+.product h3{
+  padding-left: 40%;
+  font-weight: 300;
+}
+.pagar{
+  border-top: 1px solid #CBCBCF;
+  display: flex; 
+  justify-content: space-between; 
+}
+.pagar strong{
+  font-size: 1.4em;
+}
+.tot{
+  font-size: 1.3em;
+  
+}
