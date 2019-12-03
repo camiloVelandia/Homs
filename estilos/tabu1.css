@@ -112,7 +112,7 @@ input.image_buscar {
   
   grid-area: img;
   width: 100%;
-  ;
+  
   
 }
 .hero img{
@@ -150,7 +150,7 @@ input.image_buscar {
   padding: 0;
 }
 .agregar{
-  height: 3em;
+  height: 3.5em;
   width: 70%;
   padding: 0;
   color: #B18C48;
@@ -159,7 +159,7 @@ input.image_buscar {
   cursor: pointer;
 }
 .button{
-  height: 3em;
+  height: 3.5em;
 }
 .button input{
   cursor: pointer;
