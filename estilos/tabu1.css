@@ -102,16 +102,15 @@ input.image_buscar {
 }
 .principal{
   display: grid;
-  grid-template-columns:45% 55%;
+  grid-template-columns:50% 50%;
   grid-template-areas: "img resume";
   padding-top: 120px;
-  height: 550px;
+  height: auto;
   
 }
 .hero{
   
   grid-area: img;
-  height: 90%;
   width: 100%;
   ;
   
@@ -119,12 +118,13 @@ input.image_buscar {
 .hero img{
   
   border-right:1px solid #7B8086;                      
-  height: 95%;
+  height: 100%;
   width: 100%;
 }
 .resume{
   grid-area: resume;
   padding: 1% 10% 2% 10% ;
+  height: 80%;
 }
 .title{
   font-size: 2em;
@@ -141,7 +141,7 @@ input.image_buscar {
   margin-bottom: 5%;
 }
 .contador{
-  height: 100%;
+  height: 120%;
   width: 10%;
   margin-right: 8%;
   text-align: center;
@@ -150,7 +150,7 @@ input.image_buscar {
   padding: 0;
 }
 .agregar{
-  height: 100%;
+  height: 3em;
   width: 70%;
   padding: 0;
   color: #B18C48;
