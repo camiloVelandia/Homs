@@ -8,7 +8,7 @@
   <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Raleway:300i,400,700&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="../images/Favicon.png" type="image/x-icon">
-  <link rel="stylesheet" href="../estilos/taburetes.css">
+  <link rel="stylesheet" href="tabuo.css">
 </head>
 <body>
     <header class="header">
@@ -24,8 +24,8 @@
             </form>
             </div>
           <a class="car" href="car.html">
-          <div class="item car" >
-            <img src="../images/car.svg" alt="carrito" >
+          <div class="item car">
+            <img src="../images/car.svg" alt="carrito">
             <p>Mis compras</p>
           </div>
           </a>
@@ -37,88 +37,29 @@
           </a>
         </div>
       </header>
-      <div class="body">
-
-        <section class="categoria">
-          <div class="titulo ">
-            <h1>TABURETES </h1>
-          </div> 
-        <p>Gran comodidad en pequeños espacios</p>
-      </section>
-      <section class="articulos">
-        <div class="items tab1" onclick="location.href='tabuo.html';">
-          <div class="image">
-            <img src="../images/tab1.jpg" alt="tab1">
-          </div>
-          <div class="resume">
-            <p>Mabe poket stool</p>
-            <h3>$1.200.000</h3>
-          </div>
-        </div>
-        <div class="items tab2">
-          <div class="image">
-            <img src="../images/tab2.jpg" alt="tab1">
-          </div>
-              <div class="resume">
-                <p>Ethernot anot stool</p>
-                <h3>$1.120.000</h3>
-              </div>
-            </div>
-            <div class="items tab3">
-              <div class="image">
-                <img src="../images/tab3.jpg" alt="tab1">
-              </div>
-              <div class="resume">
-                <p>Milet arnot stool</p>
-                <h3>$1.250.000</h3>
-              </div>
-            </div>
-            <div class="items tab4">
-              <div class="image">
-                <img src="../images/tab4.jpg" alt="tab1">
-              </div>
-              <div class="resume">
-                <p>Aset moll stool</p>
-                <h3>$1.000.000</h3>
-              </div>
-            </div>
-            <div class="items tab5">
-              <div class="image">
-                <img src="../images/tab5.jpg" alt="tab1">
-              </div>
-              <div class="resume">
-                <p>Lest most stool</p>
-                <h3>$888.999</h3>
-              </div>
-            </div>
-        <div class="items tab6">
-          <div class="image">
-            <img src="../images/tab1.jpg" alt="tab1">
-          </div>
-          <div class="resume">
-            <p>Mabe poket stool</p>
-            <h3>$1.200.000</h3>
-          </div>
-        </div>
-        <div class="items tab7">
-          <div class="image">
-            <img src="../images/tab2.jpg" alt="tab1">
-          </div>
-          <div class="resume">
-            <p>Ethernot anot stool</p>
-            <h3>$1.120.000</h3>
-          </div>
-        </div>
-        <div class="items tab8">
-          <div class="image">
-            <img src="../images/tab3.jpg" alt="tab1">
-          </div>
-          <div class="resume">
-            <p>Milet arnot stool</p>
-            <h3>$1.250.000</h3>
-              </div>
-        </div>
-      </section>
+     <section class="principal">
+       <div class="hero">
+         <img src="../images/tab1.jpg" alt="tab1">
+       </div>
+       <div class="resume">
+         <div class="title">
+           <h1>MABE POKET STOOL</h1>
+            <h5>Taburete</h5>
+         </div>
+         <div class="toCar">
+           <input class="contador"  type="number" name="contador" value="1">
+           <input class="agregar" id="botonModal"  type="submit" value="AGREGAR AL CARRITO">
+         </div>
+         <div class="button">
+           <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BBAZN5YBL4PKW">
+            <input type="submit" value="COMPRAR AHORA">
+          </a>
+         </div>
+         <div class="lorem">
+           <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam.</p>
+         </div>
+       </div>
+     </section>
       <section class="recomendacion">
         <h2>¡Te recomendamos!</h2>
       </section>
@@ -173,7 +114,57 @@
               <p>powered by camilo velandia</p>
               <p>Designed by EdwinDaza</p>
             </div>  
-          </footer>  
-        </div>
+          </footer> 
+          <div class="overlay " id="overlay">    
+            <div class="modal" id="modal">
+              <div class="mtitle">
+                <h1>CARRITO DE COMPRAS</h1>
+                <a id="hide-modal"><p>x</p></a>
+            </div>         
+            <div class="mlist">
+              <p>Producto</p>
+              <p>Cantidad</p>
+              <p>Precio</p>
+            </div>
+            <div class="mproducts">
+              <img src="../images/tab1.jpg" alt="tab1">
+              <div class="mname">
+                <h4>MABE POKET STOOL</h4>
+                <h6>Taburete</h6>
+              </div>
+              <input class="mcount" type="number" value="1">
+              <h3 class="mprecio">$1.200.000</h3>
+            </div>
+              <!-- <div class="modal-buttons">
+                <button class="mbtn primary" >esta chido</button>
+              
+              </div> -->
+            </div>
+            </div>
+            <script>
+              const $hideButton =document.getElementById('hide-modal');
+              const $modal =document.getElementById('modal');
+              const $overlay =document.getElementById('overlay');
+              const $botonModal =document.getElementById('botonModal')
+              
+              
+              $botonModal.addEventListener('click', (event)=>{
+                $modal.style.animation= 'modalIn .8s forwards';
+                $overlay.classList.add('active');
+              })
+              
+              $hideButton.addEventListener('click', (event)=>{
+                $modal.style.animation= 'modalOut .8s forwards';
+                $overlay.classList.remove('active');
+              } )
+              $overlay.addEventListener('click', (event) => {
+                /*  console.log(event); */
+                if (event.target == $overlay) {
+                    $modal.style.animation = 'modalOut 1s forwards';
+                    $overlay.classList.remove('active');
+                }
+            })
+          
+            </script>
       </body>
-</html>
+</html>  
