@@ -148,7 +148,7 @@ input.image_buscar {
   height: 200px;*/
   width: 60%;
   height: 80%;
-  background: white;
+  background: #E0DFE5;
  /* animation: name duration timing-function delay iteration-count direction fill-mode;*/
   animation: modalIn 1s  forwards;
   padding: 2em;
@@ -188,7 +188,6 @@ input.image_buscar {
  text-align: left;
  align-items: baseline;
  font-size: 1.4em;
- padding-bottom: 8%;
  border-bottom: 1px solid #707070;
 }
 .mproducts{
@@ -210,7 +209,7 @@ input.image_buscar {
   margin: 0;
 }
 .mcount{
-  height: 25%;
+  height: 3em;
   width: 5%;
   text-align: center;
 }
@@ -320,7 +319,9 @@ input.image_buscar {
 .recomendacion {
   display: flex;
   align-items: center;
+  justify-content: center;
   padding-left: 2%;
+  font-size: 1.3em;
   font-weight: 300;
   height: 133px;
   background: #E0DFE5;

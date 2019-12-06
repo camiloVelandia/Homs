@@ -70,14 +70,17 @@ body{
   
 }
 .button input{
-  width: 50%;
+  width: 40%;
   height: 50%;
   background: #021733;
   color: white;
+  border: none;
+  border-radius: 5%;
 }
 .button strong{
   color: #3E5F87;
 }
+ 
 .total{
   background: #F2F2F2;
   padding: 18% 5% 0 5%;

@@ -80,8 +80,6 @@ input.image_buscar {
   margin: 0;
   text-decoration: none;
   color: #021733;
-  
-  
 }
 .car p{
   padding: 0 7px;
@@ -94,11 +92,9 @@ input.image_buscar {
   justify-content: center;
   text-decoration: none;
   color: #021733;
-
 }
 .account p{
   padding: 0 7px;
-
 }
 .title{
   padding-top: 120px;
@@ -115,21 +111,18 @@ input.image_buscar {
   
 }
 .list ul{
-
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
   justify-content: space-between;
   height: 2em;
   list-style: none;
-  padding-right: 2%;
-  
+  padding-right: 2%; 
 }
  .noSave{
   height: 200px;
   margin: 0 5%;
-  padding-left:4% ;
-  
+  padding-left:4% ; 
  }
  .button{
    display: flex;
@@ -170,39 +163,38 @@ input.image_buscar {
   padding: 92px 0px 0 86px;
   grid-area: redes;
   text-align: left;
-font: Bold 14px/30px 'Raleway';
-letter-spacing: 0;
-color: #A6AFBA;
-text-transform: uppercase;
-opacity: 1;
+  font: Bold 14px/30px 'Raleway';
+  letter-spacing: 0;
+  color: #A6AFBA;
+  text-transform: uppercase;
+  opacity: 1;
 }
 .boletin{
   grid-area: boletin;
   padding: 92px 0px 0 50px;
   text-align: left;
-font: Bold 14px/30px 'Raleway';
-letter-spacing: 0;
-color: #A6AFBA;
-text-transform: uppercase;
-opacity: 1;
+  font: Bold 14px/30px 'Raleway';
+  letter-spacing: 0;
+  color: #A6AFBA;
+  text-transform: uppercase;
+  opacity: 1;
 }
 .iconos{
   padding: 23px 0px 0 76px;
   display: flex;
   grid-area: iconos;
   width: 40px;
-height: 40px;
+  height: 40px;
 
 }
 .iconos img{
   padding: 0 10px;
   width: 40px;
-height: 40px;
+  height: 40px;
 }
 .registro{
   grid-area: input;
   display: flex;
-  
 }
 .text{
   margin:23px 0px 0 50px ;
@@ -233,24 +225,23 @@ height: 40px;
   grid-area: descubre;
   padding: 0px 30px;
   font: light 23px/20px ;
-color: #A6AFBA;
-opacity: 1;
-margin: 0;
-text-transform: capitalize;
+  color: #A6AFBA;
+  opacity: 1;
+  margin: 0;
+  text-transform: capitalize;
 }
 .descubre p{
   margin: 0;
   padding: 0 0px 0 56px;
-
 }
 .enterate{
   grid-area: enterate;
   font: 'Light 300' 23px/20px ;
-color: #A6AFBA;
-padding: 0px 0px 0 50px;
-opacity: 1;
-margin: 0;
-text-transform: capitalize;
+  color: #A6AFBA;
+  padding: 0px 0px 0 50px;
+  opacity: 1;
+  margin: 0;
+  text-transform: capitalize;
 }
 .enterate p{
   margin: 0;
@@ -290,9 +281,9 @@ text-transform: capitalize;
   display: flex;
   justify-content: space-evenly;
   font: Light 20px/20px ;
-letter-spacing: 0;
-color: #A6AFBA;
-opacity: 1;
-text-transform: capitalize;
-padding: 30px 60px 0 0px;
+  letter-spacing: 0;
+  color: #A6AFBA;
+  opacity: 1;
+  text-transform: capitalize;
+  padding: 30px 60px 0 0px;
 }
