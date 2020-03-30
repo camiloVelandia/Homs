@@ -150,12 +150,12 @@
               
               
               $botonModal.addEventListener('click', (event)=>{
-                $modal.style.animation= 'modalIn .8s forwards';
+                $modal.style.animation= 'modalIn 1s forwards';
                 $overlay.classList.add('active');
               })
               
               $hideButton.addEventListener('click', (event)=>{
-                $modal.style.animation= 'modalOut .8s forwards';
+                $modal.style.animation= 'modalOut 1s forwards';
                 $overlay.classList.remove('active');
               } )
               $overlay.addEventListener('click', (event) => {

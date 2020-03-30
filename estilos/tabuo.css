@@ -233,7 +233,7 @@ input.image_buscar {
     transform: translateY(5px);
   }
 }
-/*@keyframes animationOut {*/
+
 @keyframes modalOut {
   0%{
     transform: translateY(5px);
